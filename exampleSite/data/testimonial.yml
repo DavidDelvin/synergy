@@ -1,0 +1,10 @@
+testimonialList:
+  - image: 'images/testimonial/guy.jpg'
+    name: John Doe - Homeowner
+    comment: 'Best esperience I have ever had with an tradesperson'
+  - image: 'images/testimonial/girl-1.jpg'
+    name: John Doe - Homeowner
+    comment: 'Best esperience I have ever had with an tradesperson'
+  - image: 'images/testimonial/girl-2.jpg'
+    name: John Doe - Homeowner
+    comment: 'Best esperience I have ever had with an tradesperson'

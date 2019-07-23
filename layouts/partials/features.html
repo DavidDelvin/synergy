@@ -1,0 +1,25 @@
+<section id="features" data-scroll>
+  <div class="container">
+    <div class="row">
+      <div class="inner-features col-md-12">
+        <div class="row">
+          {{ range .Site.Params.feature.featureItem }}
+          <div data-scroll class="card col-md-4 col-sm-12 features-card text-center">
+            <h6 class="card-title p-3">{{.title}}</h6>
+            <img src="{{ .image }}" class="img-card" alt="">
+            <div class="card-body">
+              <ul class="list-group">
+                {{range .featureList }}
+                <li class="list-group-item">{{ index . 0 }}</li>
+                {{ end }}
+              </ul>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>

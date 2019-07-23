@@ -1,0 +1,10 @@
+<section id="work">
+  <div class="container">
+    <h2>{{.Site.Params.work.Title}}</h2>
+    <div class="work-display">
+      {{ range .Site.Params.work.Images }}
+      <img data-scroll src="{{ index . 0 }}" alt="">
+      {{ end }}
+    </div>
+  </div>
+</section>

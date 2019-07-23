@@ -1,0 +1,9 @@
+<section id="about" class="" style='background-image: url("{{ .Site.Params.about.bgImage | absURL }}");'>
+  <div class="container d-flex align-items-center">
+    <div class="inner-about-us" data-scroll>
+      <h2>{{ .Site.Params.about.Title }}</h2>
+      <p>{{.Site.Params.about.Description}}</p>
+      <a class="btn" href="{{ .Site.Params.about.BtnUrl }}">{{.Site.Params.about.BtnText}}</a>
+    </div>
+  </div>
+</section>

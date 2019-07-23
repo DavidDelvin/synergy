@@ -1,0 +1,26 @@
+<header class="header sticky-top">
+  <nav class="navbar navbar-expand-lg navigation">
+    <div class="container">
+      {{"<!-- logo -->" | safeHTML}}
+      <a href="{{ .Site.BaseURL | absURL}}" class="navbar-brand">
+        <img class="" height="40" src="{{.Site.Params.Logo}}" alt="">
+        <span class="font-weight-bold ml-2">{{ .Site.Title }}</span>
+      </a>
+      <button class="navbar-toggler navbar-dark mt-1" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse pt-2" id="navbarSupportedContent">
+        {{"<!-- main nav -->" | safeHTML}}
+        <ul class="navbar-nav ml-auto navigation-menu">
+          {{ range $.Site.Menus.main }}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

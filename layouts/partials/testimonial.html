@@ -1,0 +1,25 @@
+<section id="testimonial">
+  <div class="container">
+    <h2>{{ .Site.Params.testimonials.Title }}</h2>
+    <div class="glider-contain">
+      <button class="glider-prev">
+        <i class="fa fa-chevron-left"></i>
+      </button>
+      <div class="row">
+        <div class="glider">
+          {{ range .Site.Data.testimonial.testimonialList }}
+          <div class="testimonial-profiles col-md-4">
+            <img src="{{ .image }}" alt="">
+            <h6>{{ .name }}</h6>
+            <p>{{ .comment }}</p>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      <button class="glider-next">
+        <i class="fa fa-chevron-right"></i>
+      </button>
+      <div id="dots" class="glider-dots"></div>
+    </div>
+  </div>
+</section>

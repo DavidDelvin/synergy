@@ -1,0 +1,10 @@
+serviceList:
+  - title: Residential
+    image: 'images/features/residential.jpg'
+    description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Et doloribus necessitatibus maxime delectus? Qui, quis voluptatibus temporibus odit amet eius similique unde doloribus ut vel iste dolore sapiente et eveniet velit molestiae veritatis laborum architecto laudantium eum? Soluta aut quae odio doloremque deleniti nemo adipisci. Recusandae sed reiciendis natus omnis?
+  - title: Commercial
+    image: 'images/features/commercial.jpg'
+    description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Et doloribus necessitatibus maxime delectus? Qui, quis voluptatibus temporibus odit amet eius similique unde doloribus ut vel iste dolore sapiente et eveniet velit molestiae veritatis laborum architecto laudantium eum? Soluta aut quae odio doloremque deleniti nemo adipisci. Recusandae sed reiciendis natus omnis?
+  - title: Industrial
+    image: 'images/features/industrial.jpg'
+    description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Et doloribus necessitatibus maxime delectus? Qui, quis voluptatibus temporibus odit amet eius similique unde doloribus ut vel iste dolore sapiente et eveniet velit molestiae veritatis laborum architecto laudantium eum? Soluta aut quae odio doloremque deleniti nemo adipisci. Recusandae sed reiciendis natus omnis?

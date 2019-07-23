@@ -1,0 +1,13 @@
+<section id="hero" style='background-image: url("{{ .Site.Params.hero.bgImage | absURL }}");' data-scroll>
+  <div class="container">
+    <div class="inner-hero">
+      <h1>{{.Site.Params.hero.Title}}</h1>
+      <p>{{.Site.Params.hero.Subtitle}}</p>
+      <div class="inner-hero-btn">
+        <a href="{{.Site.Params.hero.btnUrl}}" class="btn">{{.Site.Params.hero.BtnText}}</a>
+        <a href="{{.Site.Params.hero.btnUrlServices}}" class="btn btn-light">{{.Site.Params.hero.BtnTextServices}}</a>
+      </div>
+    </div>
+
+  </div>
+</section>
