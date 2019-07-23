@@ -7,7 +7,7 @@ Synergy Theme is a one page landing web site focused on trades people. This them
 Inside the folder of your Hugo site run:
 
     $ cd themes
-    $ git clone https://github.com/daviddelvin/synergy.git
+    $ git clone https://github.com/DavidDelvin/synergy.git
 
 For more details, check out [setup guide](//gohugo.io/overview/installing/) of Hugo.
 
