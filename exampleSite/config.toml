@@ -67,6 +67,27 @@ description = "responsive bootstrap4 landing page"
   title = "Our Work"
   images = [["images/work/grinding.jpg"],["images/work/hammering.jpg"],["images/work/painting.jpg"]]
 
+  #Services Section
+  [params.services]
+  title = "Our Services"
+    [[params.services.serviceList]]
+    title = "Residential"
+    description = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus facere esse nemo, omnis error vel?"
+    image ="images/features/residential.jpg"
+    [[params.services.serviceList]]
+    title = "Commercial"
+    description = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus facere esse nemo, omnis error vel?"
+    image ="images/features/commercial.jpg"
+    [[params.services.serviceList]]
+    title = "Industrial"
+    description = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus facere esse nemo, omnis error vel?"
+    image ="images/features/industrial.jpg"
+
+  #Testimonial Section
+  [params.testimonials]
+  enable = true
+  title = "Testimonials"
+
 
   # Footer
   [params.footer]
