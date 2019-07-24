@@ -11,6 +11,12 @@ Inside the folder of your Hugo site run:
 
 For more details, check out [setup guide](//gohugo.io/overview/installing/) of Hugo.
 
+### General Setup
+
+Once you have downloaded the theme into your Hugo page, simply go into the exampleSite folder and copy paste the config.toml file into your own site.
+
+The template information for services and testimonials can be found in the Data folder as well.
+
 ### Plugins
 
 Plugins that this theme uses are:

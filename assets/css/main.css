@@ -473,7 +473,7 @@ label {
 
 /* FOOTER SECTION */
 #footer {
-  background: var(--main-dark-bg);
+  background: #000;
   height: 10vh;
 }
 
