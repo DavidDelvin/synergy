@@ -4,7 +4,78 @@ title = "My New Hugo Site"
 theme = "synergy"
 
 [menu]
-  [[main.menu]]
+  [[Menus.main]]
   name = "About Us"
-  URL = "about"
+  URL = "#about"
   weight = 2
+  [[Menus.main]]
+  name = "Services"
+  URL = "#services"
+  weight = 3
+  [[Menus.main]]
+  name = "Testimonials"
+  URL = "#testimonial"
+  weight = 4
+  [[Menus.main]]
+  name = "Contact Us"
+  URL = "#contact"
+  weight = 5
+
+[params]
+home = 'Home'
+description = "responsive bootstrap4 landing page"
+
+  #Hero Section
+  [params.hero]
+  enable = true
+  bgImage = "images/backgrounds/electrician-hero-background.jpg"
+  title = "We are the Electricians that will fix your problem"
+  subTitle = "We are open 24 hours, so we can tackle inconvenience all the time"
+  btnURL = "#contact"
+  btnText = "Contact Us"
+  btnUrlServices = "#services"
+  BtnTextServices = "Our Services"
+
+  #Features Section
+  [params.feature]
+  enable = true
+    [[params.feature.featureItem]]
+    title = "Residential"
+    image = "images/features/residential.jpg"
+    featureList = [["insert features here"],["insert features here"]]
+    [[params.feature.featureItem]]
+    title = "Commercial"
+    image = "images/features/commercial.jpg"
+    featureList = [["insert features here"],["insert features here"]]
+    [[params.feature.featureItem]]
+    title = "Industrial"
+    image = "images/features/industrial.jpg"
+    featureList = [["insert features here"],["insert features here"]]
+
+  # About Us Section
+  [params.about]
+  enable = true
+  bgImage = "images/backgrounds/about-us.jpg"
+  title = "Why Us?"
+  description = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa rem nihil ipsum voluptatem reprehenderit recusandae unde necessitatibus voluptas nobis nam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa rem nihil ipsum voluptatem reprehenderit recusandae unde necessitatibus voluptas nobis nam!"
+  description2 = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa rem nihil ipsum voluptatem reprehenderit recusandae unde necessitatibus voluptas nobis nam!"
+  btnURL = "#contact"
+  btnText = "Contact Us"
+
+  # Work Section
+  [params.work]
+  title = "Our Work"
+  images = [["images/work/grinding.jpg"],["images/work/hammering.jpg"],["images/work/painting.jpg"]]
+
+
+  # Footer
+  [params.footer]
+  # you can add you social icons here
+  [[params.footer.social]]
+  facebook = "https://facebook.com/"
+  instagram = "https://instagram.com/"
+  linkedIn = "https://linkedin.com/"
+
+
+
+  

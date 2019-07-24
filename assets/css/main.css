@@ -61,16 +61,17 @@ label {
 .btn {
   padding: 10px 16px;
   background: var(--main-dark-bg);
-  color: var(--heading-dark-bg);
+  color: var(--site-blue);
   width: 8em;
 }
 
 .btn:hover {
-  color: var(--site-blue);
+  color: var(--heading-dark-bg);
+  background: var(--main-dark-bg);
 }
 
 .btn-light {
-  color: var(--main-dark-bg);
+  color: var(--site-blue);
   background: var(--heading-dark-bg);
 }
 
@@ -482,6 +483,10 @@ label {
 
 #footer h6 {
   color: var(--heading-dark-bg);
+}
+
+#footer h6 a {
+  text-decoration: none;
 }
 
 @media (max-width: 767px) {
