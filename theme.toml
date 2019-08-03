@@ -11,10 +11,10 @@ features = ['formspree form', 'bootstrap 4 design', 'responsive']
 min_version = "0.41"
 
 [author]
-  name = "Your name"
-  homepage = "Your site"
+  name = "David Delvin / D3 Web Services"
+  homepage = "www.d3webservices.com"
 
 # If porting an existing theme
 [original]
-  name = "D3 Web Servicdes"
-  homepage = "www.d3webservices.com"
+  name = ""
+  homepage = ""
